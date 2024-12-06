@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Stack Overflow</title>
+  <title>OQS.com</title>
   
   <subtitle>Set your site url here. For example, if you use GitHub Page, set url as</subtitle>
   <link href="https://cpp-memory-leaks.github.io/atom.xml" rel="self"/>
