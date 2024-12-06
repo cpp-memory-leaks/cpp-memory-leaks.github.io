@@ -1,4 +1,5 @@
 https://cpp-memory-leaks.github.io/2024/12/06/bugRecord/
+https://cpp-memory-leaks.github.io/2024/12/06/hhh/
 https://cpp-memory-leaks.github.io/2024/12/06/Bug/
 https://cpp-memory-leaks.github.io/2024/12/05/hello-world/
 https://cpp-memory-leaks.github.io/
