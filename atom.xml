@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>OQS.com</title>
+  <title>OQS.com 知识分享</title>
   
-  <subtitle>Set your site url here. For example, if you use GitHub Page, set url as</subtitle>
+  
   <link href="https://cpp-memory-leaks.github.io/atom.xml" rel="self"/>
   
   <link href="https://cpp-memory-leaks.github.io/"/>
