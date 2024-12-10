@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://cpp-memory-leaks.github.io/2024/12/06/Bug/</loc>
+    <loc>https://cpp-memory-leaks.github.io/2024/12/06/hhh/</loc>
     
     <lastmod>2024-12-10</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://cpp-memory-leaks.github.io/2024/12/06/hhh/</loc>
+    <loc>https://cpp-memory-leaks.github.io/2024/12/06/Bug/</loc>
     
     <lastmod>2024-12-10</lastmod>
     
@@ -47,5 +47,12 @@
 
   
 
+  
+  <url>
+    <loc>https://cpp-memory-leaks.github.io/categories/bug/</loc>
+    <lastmod>2024-12-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 </urlset>
