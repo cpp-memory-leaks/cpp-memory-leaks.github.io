@@ -1,9 +1,4 @@
 https://cpp-memory-leaks.github.io/2024/12/25/QCheckBox%E7%9A%84%E4%B8%89%E6%80%81%E5%A4%8D%E9%80%89%E6%A1%86%E5%92%8C%E5%8F%8D%E9%80%89/
 https://cpp-memory-leaks.github.io/2024/12/06/Bug/
-https://cpp-memory-leaks.github.io/2024/12/25/demo/
-https://cpp-memory-leaks.github.io/2024/12/25/README/
-https://cpp-memory-leaks.github.io/2024/12/06/hhh/
-https://cpp-memory-leaks.github.io/2024/12/05/hello-world/
-https://cpp-memory-leaks.github.io/2024/12/06/bugRecord/
 https://cpp-memory-leaks.github.io/
-https://cpp-memory-leaks.github.io/categories/bug/
+https://cpp-memory-leaks.github.io/categories/Qt/
