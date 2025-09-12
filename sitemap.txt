@@ -13,6 +13,6 @@ https://cpp-memory-leaks.github.io/tem/%E6%91%87%E6%9D%86.html
 https://cpp-memory-leaks.github.io/tem/Qt%E4%BD%BF%E7%94%A8libheif%E5%BA%93%E6%98%BE%E7%A4%BA%E8%8B%B9%E6%9E%9C%E7%9A%84heic%E5%9B%BE%E7%89%87.html
 https://cpp-memory-leaks.github.io/
 https://cpp-memory-leaks.github.io/tags/cpp/
+https://cpp-memory-leaks.github.io/categories/C/
 https://cpp-memory-leaks.github.io/categories/%E7%BB%8F%E9%AA%8C/
 https://cpp-memory-leaks.github.io/categories/Qt/
-https://cpp-memory-leaks.github.io/categories/C/
