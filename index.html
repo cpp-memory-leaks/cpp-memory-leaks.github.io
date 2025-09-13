@@ -60,7 +60,7 @@
   isHome: true,
   isHighlightShrink: false,
   isToc: false,
-  postUpdate: '2025-09-13 11:52:56',
+  postUpdate: '2025-09-13 12:10:07',
   postMainColor: '',
 }</script><noscript><style type="text/css">
   #nav {
@@ -250,52 +250,28 @@ initMourn();</script><div class="page" id="body-wrap"><header class="not-top-img
 1234#ifndef MAINWINDOW_H#define MAINWINDOW_H#endif // MAINWINDOW_H
 
 2.2  前置声明“前置声明”是类、函数和模板的纯粹声明，没伴随着其定义。
- ...</div><a class="blog-slider__button" href="2024/08/07/Cpp代码规范/" alt="C++代码规范">详情   </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" href="2024/12/25/QCheckBox的三态复选框和反选/" title="QCheckBox的三态复选框和反选"><img width="48" height="48" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://raw.githubusercontent.com/cpp-memory-leaks/cpp-memory-leaks.github.io/refs/heads/master/img/qt_default_cover.png" alt="图片" onerror="this.src=undefined; this.onerror = null;"></a><div class="blog-slider__content"><span class="blog-slider__code">2024-12-25</span><a class="blog-slider__title" href="2024/12/25/QCheckBox的三态复选框和反选/" alt="QCheckBox的三态复选框和反选">QCheckBox的三态复选框和反选</a><div class="blog-slider__text">QCheckBox的三态复选框以及反选在使用这个控件的时候，需求有可能是：点击复选框实线反选，并且选中项目的时候需要显示未选中、部分选中和全选。在这个需求当中，首先想到的是直接启用三态复选框，但是点击的时候就变成了可以点三次，这就和反选冲突了。
+ ...</div><a class="blog-slider__button" href="2024/08/07/Cpp代码规范/" alt="C++代码规范">详情   </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" href="2025/09/12/C-REST-SDK-cpprestsdk-HTTPS-通信/" title="C++ REST SDK (cpprestsdk) HTTPS 通信"><img width="48" height="48" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/cpp_default_cover.png" alt="图片" onerror="this.src=undefined; this.onerror = null;"></a><div class="blog-slider__content"><span class="blog-slider__code">2025-09-12</span><a class="blog-slider__title" href="2025/09/12/C-REST-SDK-cpprestsdk-HTTPS-通信/" alt="C++ REST SDK (cpprestsdk) HTTPS 通信">C++ REST SDK (cpprestsdk) HTTPS 通信</a><div class="blog-slider__text">C++ REST SDK (cpprestsdk) HTTPS 通信SSL&amp;#x2F;TLS 证书验证全过程解析文档版本: 1.2 | 最后更新日期: 2025-09-12 | 作者: oqs
+概述C++ REST SDK (cpprestsdk) 使用 SSL&amp;#x2F;TLS 访问 HTTPS 站点的过程是一套复杂的交互协议，其核心目的是为了验证网站身份的真实性并加密通信数据，防止信息被窃听或篡改。整个过程建立在标准的 TLS 握手基础之上，cpprestsdk 作为客户端封装了其中的复杂性。
+
+
+完整交互过程一次完整的 HTTPS 请求包含四个主要阶段：
+
+TCP 连接建立
+TLS 握手与安全通道建立 (核心)
+HTTP 应用数据交换
+连接终止
+
+阶段一：TCP 连接建立
+客户端初始化应用程序创建 web::http::client::http_client 对象，并提供目标 HTTPS URL（例如 https://api.example.com）。
+
+解析与连接cpprestsdk 库从 URL 中解析出主机名（api.example.com），并默认使用端口 443。底层网 ...</div><a class="blog-slider__button" href="2025/09/12/C-REST-SDK-cpprestsdk-HTTPS-通信/" alt="C++ REST SDK (cpprestsdk) HTTPS 通信">详情   </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" href="2025/08/21/CppRestSDK编译ASIO版本过程/" title="C++ REST SDK (cpprestsdk)编译ASIO版本过程"><img width="48" height="48" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/cpp_default_cover.png" alt="图片" onerror="this.src=undefined; this.onerror = null;"></a><div class="blog-slider__content"><span class="blog-slider__code">2025-08-21</span><a class="blog-slider__title" href="2025/08/21/CppRestSDK编译ASIO版本过程/" alt="C++ REST SDK (cpprestsdk)编译ASIO版本过程">C++ REST SDK (cpprestsdk)编译ASIO版本过程</a><div class="blog-slider__text">编译cpprestsdk过程中遇到的问题及解决方法</div><a class="blog-slider__button" href="2025/08/21/CppRestSDK编译ASIO版本过程/" alt="C++ REST SDK (cpprestsdk)编译ASIO版本过程">详情   </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" href="2024/12/25/QCheckBox的三态复选框和反选/" title="QCheckBox的三态复选框和反选"><img width="48" height="48" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://raw.githubusercontent.com/cpp-memory-leaks/cpp-memory-leaks.github.io/refs/heads/master/img/qt_default_cover.png" alt="图片" onerror="this.src=undefined; this.onerror = null;"></a><div class="blog-slider__content"><span class="blog-slider__code">2024-12-25</span><a class="blog-slider__title" href="2024/12/25/QCheckBox的三态复选框和反选/" alt="QCheckBox的三态复选框和反选">QCheckBox的三态复选框和反选</a><div class="blog-slider__text">QCheckBox的三态复选框以及反选在使用这个控件的时候，需求有可能是：点击复选框实线反选，并且选中项目的时候需要显示未选中、部分选中和全选。在这个需求当中，首先想到的是直接启用三态复选框，但是点击的时候就变成了可以点三次，这就和反选冲突了。
 1.QCheckBox的三种状态：12345enum CheckState &amp;#123;    Unchecked,    PartiallyChecked,    Checked&amp;#125;;
 
 2.如何启用三态复选框使用setTristate(true)即可开启，使用void QCheckBox::setCheckState(Qt::CheckState state)参数为Qt::PartiallyChecked也会启用三态
 
 
 3.如何实现需求显示选中状态：选择项目的时候根据选中情况设置QCheckBox的状态（如在QListView中可以通过QItemSelectionModel::selectionChanged信号实时统计）
-123456789101112if (selectedItems == 0)&amp;#123;	ui-&amp;gt;ch ...</div><a class="blog-slider__button" href="2024/12/25/QCheckBox的三态复选框和反选/" alt="QCheckBox的三态复选框和反选">详情   </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" href="2025/01/22/Qt中各种图像的格式转换以及与cv-Mat图像格式的转换/" title="Qt中各种图像的格式转换以及与cv::Mat图像格式之间的转换"><img width="48" height="48" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://raw.githubusercontent.com/cpp-memory-leaks/cpp-memory-leaks.github.io/refs/heads/master/img/qt_default_cover.png" alt="图片" onerror="this.src=undefined; this.onerror = null;"></a><div class="blog-slider__content"><span class="blog-slider__code">2025-01-22</span><a class="blog-slider__title" href="2025/01/22/Qt中各种图像的格式转换以及与cv-Mat图像格式的转换/" alt="Qt中各种图像的格式转换以及与cv::Mat图像格式之间的转换">Qt中各种图像的格式转换以及与cv::Mat图像格式之间的转换</a><div class="blog-slider__text">在使用 Qt 与 OpenCV 联合开发时，常常需要在 QImage 和 cv::Mat 之间进行图像格式转换。两者的图像格式不同，因此理解 QImage::Format 与 cv::Mat 类型的对应关系 非常关键。以下是常见格式的对应关系表：
-1. QImage::Format 与 cv::Mat 类型对照表：
-
-
-QImage::Format
-描述
-对应的 cv::Mat 类型
-通道顺序
-
-
-
-QImage::Format_RGB888
-24-bit RGB（每像素3字节）
-CV_8UC3
-RGB → OpenCV中是BGR
-
-
-QImage::Format_BGR888
-24-bit BGR（Qt 5.14+）
-CV_8UC3
-BGR
-
-
-QImage::Format_ARGB32
-32-bit ARGB（Alpha在高字节）
-CV_8UC4
-BGRA（OpenCV里是BGRA）
-
-
-QImage::Format_ARGB32_Premultiplied
-预乘Alpha的32位ARGB
-CV_8UC4
-BGRA（需额外处理Alpha）
-
-
-QImage::Format_RGB3 ...</div><a class="blog-slider__button" href="2025/01/22/Qt中各种图像的格式转换以及与cv-Mat图像格式的转换/" alt="Qt中各种图像的格式转换以及与cv::Mat图像格式之间的转换">详情   </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" href="2024/12/25/Qt使用libheif库显示苹果的heic图片/" title="Qt使用libheif库显示苹果的heic图片"><img width="48" height="48" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://raw.githubusercontent.com/cpp-memory-leaks/cpp-memory-leaks.github.io/refs/heads/master/img/qt_default_cover.png" alt="图片" onerror="this.src=undefined; this.onerror = null;"></a><div class="blog-slider__content"><span class="blog-slider__code">2024-12-25</span><a class="blog-slider__title" href="2024/12/25/Qt使用libheif库显示苹果的heic图片/" alt="Qt使用libheif库显示苹果的heic图片">Qt使用libheif库显示苹果的heic图片</a><div class="blog-slider__text">Qt使用libheif库显示苹果的heic图片1.先使用vcpkg安装libheif库自己根据需要选择位数以及动态库还是静态库
-12vcpkg install libheif:x86-windows-staticvcpkg install libheif:x64-windows-static
-
-2.直接上代码12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879#include &amp;lt;QApplication&amp;gt;#include &amp;lt;QLabel&amp;gt;#include &amp;lt;QImage&amp;gt;#include &amp;lt;QPixmap&amp;gt;#include &amp;lt;libheif/heif.h&amp;gt;#include &amp;lt;iostream&amp;gt;QImage heifToQImage(const std::string&amp;amp ...</div><a class="blog-slider__button" href="2024/12/25/Qt使用libheif库显示苹果的heic图片/" alt="Qt使用libheif库显示苹果的heic图片">详情   </a></div></div></div><div class="blog-slider__pagination swiper-pagination-clickable swiper-pagination-bullets"></div></div><div id="topPostGroup"><div class="top-group-list-item"><div class="post_cover left_radius"><a href="2024/08/07/Cpp代码规范/" title="C++代码规范"><span class="top-group-text">荐</span><img class="post_bg" alt="C++代码规范" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/cpp_default_cover.png" onerror="this.src=undefined; this.onerror = null;"></a></div><div class="top-group-info"><a class="article-title" href="2024/08/07/Cpp代码规范/" title="C++代码规范">C++代码规范</a></div></div><div class="top-group-list-item"><div class="post_cover left_radius"><a href="2024/12/25/QCheckBox的三态复选框和反选/" title="QCheckBox的三态复选框和反选"><span class="top-group-text">荐</span><img class="post_bg" alt="QCheckBox的三态复选框和反选" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://raw.githubusercontent.com/cpp-memory-leaks/cpp-memory-leaks.github.io/refs/heads/master/img/qt_default_cover.png" onerror="this.src=undefined; this.onerror = null;"></a></div><div class="top-group-info"><a class="article-title" href="2024/12/25/QCheckBox的三态复选框和反选/" title="QCheckBox的三态复选框和反选">QCheckBox的三态复选框和反选</a></div></div><div class="top-group-list-item"><div class="post_cover left_radius"><a href="2025/01/22/Qt中各种图像的格式转换以及与cv-Mat图像格式的转换/" title="Qt中各种图像的格式转换以及与cv::Mat图像格式之间的转换"><span class="top-group-text">荐</span><img class="post_bg" alt="Qt中各种图像的格式转换以及与cv::Mat图像格式之间的转换" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://raw.githubusercontent.com/cpp-memory-leaks/cpp-memory-leaks.github.io/refs/heads/master/img/qt_default_cover.png" onerror="this.src=undefined; this.onerror = null;"></a></div><div class="top-group-info"><a class="article-title" href="2025/01/22/Qt中各种图像的格式转换以及与cv-Mat图像格式的转换/" title="Qt中各种图像的格式转换以及与cv::Mat图像格式之间的转换">Qt中各种图像的格式转换以及与cv::Mat图像格式之间的转换</a></div></div><div class="top-group-list-item"><div class="post_cover left_radius"><a href="2024/12/25/Qt使用libheif库显示苹果的heic图片/" title="Qt使用libheif库显示苹果的heic图片"><span class="top-group-text">荐</span><img class="post_bg" alt="Qt使用libheif库显示苹果的heic图片" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://raw.githubusercontent.com/cpp-memory-leaks/cpp-memory-leaks.github.io/refs/heads/master/img/qt_default_cover.png" onerror="this.src=undefined; this.onerror = null;"></a></div><div class="top-group-info"><a class="article-title" href="2024/12/25/Qt使用libheif库显示苹果的heic图片/" title="Qt使用libheif库显示苹果的heic图片">Qt使用libheif库显示苹果的heic图片</a></div></div><div class="top-group-list-none"></div><div class="top-group-list-none"></div><div class="top-group-list-none"></div></div></div></div></div><script src="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.js"></script><script>function initBlogSlider() {
+123456789101112if (selectedItems == 0)&amp;#123;	ui-&amp;gt;ch ...</div><a class="blog-slider__button" href="2024/12/25/QCheckBox的三态复选框和反选/" alt="QCheckBox的三态复选框和反选">详情   </a></div></div></div><div class="blog-slider__pagination swiper-pagination-clickable swiper-pagination-bullets"></div></div><div id="topPostGroup"><div class="top-group-list-item"><div class="post_cover left_radius"><a href="2024/08/07/Cpp代码规范/" title="C++代码规范"><span class="top-group-text">荐</span><img class="post_bg" alt="C++代码规范" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/cpp_default_cover.png" onerror="this.src=undefined; this.onerror = null;"></a></div><div class="top-group-info"><a class="article-title" href="2024/08/07/Cpp代码规范/" title="C++代码规范">C++代码规范</a></div></div><div class="top-group-list-item"><div class="post_cover left_radius"><a href="2025/09/12/C-REST-SDK-cpprestsdk-HTTPS-通信/" title="C++ REST SDK (cpprestsdk) HTTPS 通信"><span class="top-group-text">荐</span><img class="post_bg" alt="C++ REST SDK (cpprestsdk) HTTPS 通信" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/cpp_default_cover.png" onerror="this.src=undefined; this.onerror = null;"></a></div><div class="top-group-info"><a class="article-title" href="2025/09/12/C-REST-SDK-cpprestsdk-HTTPS-通信/" title="C++ REST SDK (cpprestsdk) HTTPS 通信">C++ REST SDK (cpprestsdk) HTTPS 通信</a></div></div><div class="top-group-list-item"><div class="post_cover left_radius"><a href="2025/08/21/CppRestSDK编译ASIO版本过程/" title="C++ REST SDK (cpprestsdk)编译ASIO版本过程"><span class="top-group-text">荐</span><img class="post_bg" alt="C++ REST SDK (cpprestsdk)编译ASIO版本过程" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/cpp_default_cover.png" onerror="this.src=undefined; this.onerror = null;"></a></div><div class="top-group-info"><a class="article-title" href="2025/08/21/CppRestSDK编译ASIO版本过程/" title="C++ REST SDK (cpprestsdk)编译ASIO版本过程">C++ REST SDK (cpprestsdk)编译ASIO版本过程</a></div></div><div class="top-group-list-item"><div class="post_cover left_radius"><a href="2024/12/25/QCheckBox的三态复选框和反选/" title="QCheckBox的三态复选框和反选"><span class="top-group-text">荐</span><img class="post_bg" alt="QCheckBox的三态复选框和反选" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://raw.githubusercontent.com/cpp-memory-leaks/cpp-memory-leaks.github.io/refs/heads/master/img/qt_default_cover.png" onerror="this.src=undefined; this.onerror = null;"></a></div><div class="top-group-info"><a class="article-title" href="2024/12/25/QCheckBox的三态复选框和反选/" title="QCheckBox的三态复选框和反选">QCheckBox的三态复选框和反选</a></div></div><div class="top-group-list-none"></div><div class="top-group-list-none"></div><div class="top-group-list-none"></div></div></div></div></div><script src="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.js"></script><script>function initBlogSlider() {
   var swiper = new Swiper(".blog-slider", {
     passiveListeners: true,
     spaceBetween: 30,
@@ -328,12 +304,6 @@ QImage::Format_RGB3 ...</div><a class="blog-slider__button" href="2025/01/22/Qt�
 setTimeout(()=>{
   initBlogSlider()
 }, 100)</script><div class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div id="categoryBar"><div class="category-bar" id="category-bar"><div id="catalog-bar"><div id="catalog-list"><div class="catalog-list-item" id="首页"><a href="/">首页</a></div>
-    <div class="catalog-list-item" id="/categories/Qt/">
-      <a href="/categories/Qt/">
-        Qt
-      </a>
-    </div>
-    
     <div class="catalog-list-item" id="/categories/C/">
       <a href="/categories/C/">
         C++
@@ -343,6 +313,12 @@ setTimeout(()=>{
     <div class="catalog-list-item" id="/categories/经验/">
       <a href="/categories/经验/">
         经验
+      </a>
+    </div>
+    
+    <div class="catalog-list-item" id="/categories/Qt/">
+      <a href="/categories/Qt/">
+        Qt
       </a>
     </div>
     </div><div class="category-bar-next" id="category-bar-next" onclick="anzhiyu.scrollCategoryBarToRight()"><i class="anzhiyufont anzhiyu-icon-angle-double-right"></i></div><a class="catalog-more" href="/categories/">更多</a></div></div></div><div class="recent-post-item lastestpost-item" onclick="pjax.loadUrl('/2025/09/12/C-REST-SDK-cpprestsdk-HTTPS-%E9%80%9A%E4%BF%A1/')"><div class="post_cover left"><a href="/2025/09/12/C-REST-SDK-cpprestsdk-HTTPS-%E9%80%9A%E4%BF%A1/" title="C++ REST SDK (cpprestsdk) HTTPS 通信" style="display: flex;height: 100%;"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/cpp_default_cover.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="C++ REST SDK (cpprestsdk) HTTPS 通信" style="pointer-events: none"></a></div><div class="recent-post-info"><div class="recent-post-info-top"><div class="recent-post-info-top-tips"><div class="article-categories-original">C++</div><span class="newPost">最新</span><a class="unvisited-post" href="/2025/09/12/C-REST-SDK-cpprestsdk-HTTPS-%E9%80%9A%E4%BF%A1/" title="C++ REST SDK (cpprestsdk) HTTPS 通信">未读</a></div><a class="article-title" href="/2025/09/12/C-REST-SDK-cpprestsdk-HTTPS-%E9%80%9A%E4%BF%A1/" title="C++ REST SDK (cpprestsdk) HTTPS 通信">C++ REST SDK (cpprestsdk) HTTPS 通信</a></div><div class="article-meta-wrap"><span class="post-meta-date"><i class="anzhiyufont anzhiyu-icon-calendar-days" style="font-size: 15px; display:none"></i><span class="article-meta-label">Created</span><time datetime="2025-09-12T15:30:32.000Z" title="Created 2025-09-12 23:30:32" time="2025-09-12 23:30:32">2025-09-12</time><time class="time_hidden" datetime="2025-09-13T03:43:38.081Z" title="Updated 2025-09-13 11:43:38" time="2025-09-13 11:43:38">2025-09-13</time></span><span class="article-meta tags"><a class="article-meta__tags" href="/tags/C-cpprestsdk-openssl-tls-https/" event.cancelbubble onclick="window.event.cancelBubble=true;"><span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>C++ cpprestsdk openssl tls https</span></a></span></div><div class="content">C++ REST SDK (cpprestsdk) HTTPS 通信SSL&#x2F;TLS 证书验证全过程解析文档版本: 1.2 | 最后更新日期: 2025-09-12 | 作者: oqs
