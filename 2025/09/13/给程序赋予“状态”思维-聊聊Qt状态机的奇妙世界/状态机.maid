@@ -1,0 +1,56 @@
+flowchart TD
+    %% 定义状态节点
+    Stopped[停止状态]
+    Playing[播放状态]
+    Paused[暂停状态]
+    Final[结束状态]
+
+    %% 设置初始状态
+    Start([开始]) --> Stopped
+    Stopped --> Final
+
+    %% 定义状态转换
+    Stopped --> |点击播放按钮| Playing
+    Playing --> |点击暂停按钮| Paused
+    Playing --> |点击停止按钮| Stopped
+    Paused --> |点击播放按钮| Playing
+    Paused --> |点击停止按钮| Stopped
+
+    %% 定义进入状态时的动作
+    subgraph Playing_Actions [进入播放状态时]
+        P1[禁用播放按钮]
+        P2[启用暂停按钮]
+        P3[启用停止按钮]
+        P4[开始播放音乐]
+    end
+
+    subgraph Paused_Actions [进入暂停状态时]
+        D1[启用播放按钮]
+        D2[禁用暂停按钮]
+        D3[启用停止按钮]
+        D4[暂停播放音乐]
+    end
+
+    subgraph Stopped_Actions [进入停止状态时]
+        S1[启用播放按钮]
+        S2[禁用暂停按钮]
+        S3[禁用停止按钮]
+        S4[停止播放音乐]
+    end
+
+    %% 连接动作到状态
+    Playing -.-> Playing_Actions
+    Paused -.-> Paused_Actions
+    Stopped -.-> Stopped_Actions
+
+    %% 样式定义
+    classDef state fill:#e1f5fe,stroke:#01579b,stroke-width:2px
+    classDef action fill:#f3e5f5,stroke:#7b1fa2,stroke-width:1px
+    classDef startEnd fill:#c8e6c9,stroke:#2e7d32,stroke-width:2px
+
+    class Stopped,Playing,Paused state
+    class Playing_Actions,Paused_Actions,Stopped_Actions action
+    class Start,Final startEnd
+
+    %% 添加说明
+    note[状态机规则说明：<br>1. 实线箭头表示状态转换<br>2. 虚线箭头表示进入状态时执行的动作<br>3. 每个状态都有对应的界面更新和播放器操作]
